@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Inventory package analytics logo">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0758ed"/>
+      <stop offset="100%" stop-color="#168cff"/>
+    </linearGradient>
+    <linearGradient id="box" x1="0" y1="0" x2="0.9" y2="1">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#edf5ff"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="96" fill="url(#bg)"/>
+  <g fill="url(#box)">
+    <!-- Open parcel top flaps -->
+    <path d="M105 177 220 112 Q230 106 240 112 L286 137 170 205Z"/>
+    <path d="M226 216 345 148 405 181 Q412 185 405 190 L291 257 Q284 261 276 257Z"/>
+    <!-- Left/front side of parcel -->
+    <path d="M101 207 Q101 198 110 203 L166 234 166 285 207 309 207 260 262 291 262 424 Q262 435 252 430 L111 351 Q101 345 101 333Z"/>
+    <!-- Right side of parcel -->
+    <path d="M276 290 404 216 Q412 212 412 222 L412 279 Q412 287 405 291 L350 323 Q318 307 288 327 L276 335Z"/>
+    <!-- Analytics circle -->
+    <circle cx="330" cy="357" r="91"/>
+  </g>
+  <!-- Bars in blue negative space -->
+  <g fill="#0758ed">
+    <rect x="281" y="372" width="22" height="45" rx="5"/>
+    <rect x="313" y="347" width="22" height="70" rx="5"/>
+    <rect x="345" y="319" width="22" height="98" rx="5"/>
+  </g>
+</svg>
